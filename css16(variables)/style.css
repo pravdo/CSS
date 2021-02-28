@@ -1,0 +1,56 @@
+/*
+--varName:value
+property:var(--varName)
+scope
+:root{} === global
+element === local
+any property
+
+
+.heading {
+  color: #b13917;
+}
+
+.text {
+  color: #32ff0e;
+}
+
+.main-text {
+  color: #1213f1;
+}
+
+.second-heading {
+  color: #f15025;
+}
+*/
+
+:root {
+  --primaryColor: #515025;
+  --secondaryColor: #f15025;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
+
+div {
+  --primaryRed: red;
+}
+
+.main-text {
+  color: var(--primaryRed);
+}
+
+.third-heading {
+  color: var(--primaryRed);
+}
