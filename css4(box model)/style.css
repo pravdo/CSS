@@ -1,0 +1,20 @@
+h1 {
+  background: red;
+  padding: 20px;
+  margin: 40px;
+  /* border-style: solid;
+  border-width: 10px;
+  border-color: pink;*/
+  border-bottom-style: dashed;
+  border-bottom-width: 5px;
+  border-bottom-color: #222;
+  border-radius: 20px;
+}
+
+p {
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 60px 20px 20px 50px;
+  border: 15px solid darkblue;
+  border-radius: 30%;
+}

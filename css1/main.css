@@ -1,0 +1,23 @@
+#heading {
+  color: green;
+  background: black;
+}
+
+#subheading {
+  color: red;
+  background: gray;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: blue;
+}
+div {
+  color: red;
+  background: gray;
+}
+span {
+  text-transform: uppercase;
+}

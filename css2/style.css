@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Niconne&display=swap");
+body {
+  font-family: "Niconne", cursive;
+  text-align: center;
+}
+
+.main {
+  font-family: "Cantarell", sans-serif;
+  text-align: right;
+}
+
+.subheading {
+}
+.one {
+  text-indent: 30rem;
+}
+
+.two {
+  text-align: left;
+}

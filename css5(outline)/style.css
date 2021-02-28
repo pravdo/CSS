@@ -1,0 +1,24 @@
+.buttons {
+  margin: 3rem;
+}
+
+a {
+  background: #686868;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222222;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.5rem solid #222;
+}
+
+#two {
+  outline-width: 0.5rem;
+  outline-style: solid;
+  outline-color: #222;
+  outline-offset: 10px;
+}

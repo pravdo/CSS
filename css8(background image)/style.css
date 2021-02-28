@@ -1,0 +1,22 @@
+div {
+  height: 300px;
+  color: red;
+}
+
+.first-img {
+  background: url("./art.jpg");
+  /*background-repeat: repeat;*/
+  background-size: cover;
+}
+
+.second-img {
+  border: 2px solid red;
+  background: url("./art2.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+.folder-img {
+  background: url("./image/pexelsfold.jpg");
+  background-size: contain;
+}
